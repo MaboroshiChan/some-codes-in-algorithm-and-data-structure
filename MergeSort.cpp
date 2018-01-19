@@ -37,7 +37,6 @@ int main()
 	vector<int> b = { 1,3,2,3,1 };
 	vector<int> c = mergeSort(a, 0, a.size() - 1);
 	for (int i : b) {
-		i = log(i)/log(2);
 		cout << i << " ";
 	}
 	system("pause");
